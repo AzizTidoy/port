@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aziz Tidoy's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-          
+     SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.3.0/css/flat-ui.min.css" 
+     integrity="sha512-6f7HT84a/AplPkpSRSKWqbseRTG4aRrhadjZezYQ0oVk/B+nm/US5KzQkyyOyh0Mn9cyDdChRdS9qaxJRHayww==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 <body>
@@ -26,7 +29,7 @@
                             <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
                         </svg>
                     </label>
-                    <a class="home-link" href="#">Home</a>
+                    <ion-icon name="home"></ion-icon><a class="home-link" href="#">Home</a>
                     <a href="#about">About Me</a>
                     <a href="#skills">Skills</a>
                     <a href="#experience">Experience</a>
@@ -101,16 +104,19 @@
             <h2>Work Samples</h2>
             <div class="work-grid">
                 <div class="work-card">
-                    <img src="Responsive Web.jpg" alt="Responsive Web Design">
+                <a href="projects/Trece/resposveTrece.html"><img src="Responsive Web.jpg" alt="Responsive Web Design"></a> 
                 </div>
                 <div class="work-card">
-                    <img src="Sched.png" alt="Scheduling App">
+                <a href="projects/Act_2.html"><img src="Sched.png" alt="Scheduling App"></a>    
                 </div>
                 <div class="work-card">
-                    <img src="appForm.png" alt="Application Form">
+                <a href="projects/Act_1.html"><img src="appForm.png" alt="Application Form"></a>    
                 </div>
+                <div class="work-card">
+                    <a href="projects/Login_Register/login.html"><img src="login.png" alt="Application Form"></a>    
+                    </div>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            
         </div>
     </section>
 
@@ -142,5 +148,7 @@
             <p>&copy; 2024 Aziz Tidoy's Portfolio</p>
         </div>
     </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

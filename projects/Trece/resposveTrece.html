@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Open Sans', sans-serif;
+            background-image: url('map.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+            color: #333;
+        }
+        
+        .header {
+            background-image: linear-gradient(to right, rgb(224, 97, 42), rgb(222, 159, 44));
+            border-radius: 30px;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.5em;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .header h1 {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .row:after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        [class*="col-"] {
+            float: left;
+            padding: 15px;
+        }
+
+        .menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu li {
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: hsla(335, 82%, 49%, 0.7);
+            color: #ffffff;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            border-radius: 30px;
+            font-size: 1.1em;
+        }
+
+        .menu li:hover {
+            background-color: rgba(34, 106, 223, 0.7);
+        }
+
+        .main-content {
+            background: #561c1c;
+            padding: 20px;
+            border-radius: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            
+        }
+
+        .main-content img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        .col-6 h1 {
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .col-6 p {
+            color: white;
+            font-family: cursive;
+
+        }
+
+        .aside {
+            background-color:  hsl(19, 88%, 19%, 0.7);
+            padding: 20px;
+            color: #ffffff;
+            text-align: center;
+            font-size: 1em;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border-radius: 30px;
+            
+        }
+
+        .ccol-3 h2 {
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .col-3 p {
+            font-family: cursive;
+        }
+
+            .footer {
+                background-image: linear-gradient(to right, rgba(251, 203, 114), rgba(238, 117, 65));)
+                color: #ffffff;
+                text-align: center;
+                font-size: 1em;
+                padding: 15px;
+                margin-top: 20px;
+                border-radius: 0 0 10px 10px;
+                box-shadow: 0 -4px 6px rgba(0,0,0,0.1);
+        }
+
+        /* For mobile phones: */
+        [class*="col-"] {
+            width: 100%;
+        }
+
+        @media only screen and (min-width: 600px) {
+            .col-s-1 {width: 8.33%;}
+            .col-s-2 {width: 16.66%;}
+            .col-s-3 {width: 25%;}
+            .col-s-4 {width: 33.33%;}
+            .col-s-5 {width: 41.66%;}
+            .col-s-6 {width: 50%;}
+            .col-s-7 {width: 58.33%;}
+            .col-s-8 {width: 66.66%;}
+            .col-s-9 {width: 75%;}
+            .col-s-10 {width: 83.33%;}
+            .col-s-11 {width: 91.66%;}
+            .col-s-12 {width: 100%;}
+        }
+
+        @media only screen and (min-width: 768px) {
+            /* For desktop: */
+            .col-1 {width: 8.33%;}
+            .col-2 {width: 16.66%;}
+            .col-3 {width: 25%;}
+            .col-4 {width: 33.33%;}
+            .col-5 {width: 41.66%;}
+            .col-6 {width: 50%;}
+            .col-7 {width: 58.33%;}
+            .col-8 {width: 66.66%;}
+            .col-9 {width: 75%;}
+            .col-10 {width: 83.33%;}
+            .col-11 {width: 91.66%;}
+            .col-12 {width: 100%;}
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Trece Martires (de facto) <br> Imus (de jure)</h1>
+</div>
+
+<div class="row">
+    <div class="col-3 col-s-3 menu">
+        <ul>
+            <li>The City</li>
+            <li>The Flight</li>
+            <li>The People</li>
+            <li>The Food</li>
+        </ul>
+    </div>
+
+    <div class="col-6 col-s-9 main-content">
+        <h1>The City</h1>
+        <img src="TRECEE.jpg" alt="Description of image">
+        <p>Trece Martires, officially the City of Trece Martires (Filipino: Lungsod ng Trece Martires), is a 4th class component city and de facto capital city of the province of Cavite, Philippines. 
+            Trece Martires was named in the honor of Thirteen Martyrs of Cavite, who were executed during the Spanish regime. 
+            Interestingly, the city's 13 barangays were also named after the Thirteen Martyrs.</p>
+    </div>
+
+    <div class="col-3 col-s-12 aside">
+        <h2>What?</h2>
+        <p>The city was named after the Thirteen Martyrs of Cavite, who were judged of rebellion and were executed by the Spaniards on September 12, 1896 during the Philippine Revolution. Trece Martires was one of the largest and remotest barrios in Cavite.</p>
+        <h2>Where?</h2>
+        <p>Trece Martires is in the heart of Cavite Province.</p>
+        <h2>How?</h2>
+        <p>Can take a cab or bus going to "Coastal Mall", the provincial bus terminal. Then take a bus with a signage "Trece Martires" or "Indang".</p>
+    </div>
+</div>
+
+<div class="footer">
+    <p>Resize the browser window to see how the content respond to the resizing.</p>
+</div>
+
+</body>
+</html>

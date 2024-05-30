@@ -68,7 +68,8 @@ nav a {
 }
 
 nav a:hover {
-    background-color: rgb(130, 196, 226);
+    background-color: rgb(100, 183, 241);
+    color: black;
 }
 
 nav .home-link {
